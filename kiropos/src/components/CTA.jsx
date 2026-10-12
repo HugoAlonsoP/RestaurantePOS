@@ -7,7 +7,7 @@ function CTA() {
         <h2>¿Listo para modernizar tu restaurante?</h2>
         <p>
           Únete a cientos de restaurantes que ya trabajan más rápido con
-          ComandaPro.
+          KiroPOS.
         </p>
         <Link to="/login" className="btn-primary btn-lg">
           Comenzar ahora →

@@ -15,7 +15,8 @@ function Navbar() {
     <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
       <div className="navbar-container">
         <Link to="/" className="logo">
-          🍽️ Comanda<span>Pro</span>
+
+          🍽️ Kiro<span>POS</span>
         </Link>
 
         <button

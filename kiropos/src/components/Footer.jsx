@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-brand">
-          <h3>🍽️ ComandaPro</h3>
+          <h3>🍽️ KiroPOS</h3>
           <p>El sistema de comandas para restaurantes modernos.</p>
         </div>
 
@@ -29,7 +29,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} ComandaPro. Todos los derechos reservados.</p>
+        <p>© {new Date().getFullYear()} KiroPOS. Todos los derechos reservados.</p>
       </div>
     </footer>
   );
