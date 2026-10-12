@@ -1,5 +1,5 @@
 
-# RestaurantePOS
+# KiroPOS
 
 ## Objetivo
 Desarrollar un software comercial para restaurantes.
