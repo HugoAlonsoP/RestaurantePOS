@@ -3,9 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #2a2a3e 100%);
   padding: 1rem;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
 }
 
 .login-form {
@@ -20,7 +20,7 @@
 .login-form h2 {
   margin: 0 0 1.5rem;
   text-align: center;
-  color: #333;
+  color: #1a1a2e;
 }
 
 .form-group {
@@ -46,8 +46,8 @@
 }
 
 .form-group input:focus {
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+  border-color: #ff6b35;
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.15);
 }
 
 .input-error {
@@ -96,13 +96,13 @@
 }
 
 .toggle-password:hover {
-  color: #667eea;
+  color: #ff6b35;
 }
 
 .btn-login {
   width: 100%;
   padding: 0.85rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -115,6 +115,7 @@
 
 .btn-login:hover:not(:disabled) {
   transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 107, 53, 0.35);
   opacity: 0.95;
 }
 
@@ -131,7 +132,7 @@
 }
 
 .register-link a {
-  color: #667eea;
+  color: #ff6b35;
   text-decoration: none;
   font-weight: 600;
 }

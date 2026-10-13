@@ -18,7 +18,7 @@ function Navbar() {
       <div className="navbar-container">
                 <Link to="/" className="logo">
                   <img src={logo} alt="KiroPOS" className="logo-img" />
-                  Kiro<span>POS</span>
+                  <span className="logo-text">KiroPOS</span>
                 </Link>
 
         <button
