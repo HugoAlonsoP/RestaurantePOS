@@ -47,10 +47,19 @@ body {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 1.5rem;
   font-weight: 800;
   color: #1a1a2e;
   text-decoration: none;
+}
+
+.logo-img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
 }
 
 .logo span {
@@ -353,7 +362,9 @@ body {
 }
 
 .feature-icon {
-  font-size: 2.5rem;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
   margin-bottom: 1rem;
 }
 
@@ -545,6 +556,14 @@ body {
   gap: 3rem;
   padding-bottom: 3rem;
   border-bottom: 1px solid #2a2a3e;
+}
+
+.footer-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+  display: block;
 }
 
 .footer-brand h3 {

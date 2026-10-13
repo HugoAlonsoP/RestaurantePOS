@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <span className="badge">✨ Nuevo · Sistema todo en uno</span>
+        <span className="badge">Nuevo · Sistema todo en uno</span>
         <h1>
           Toma comandas <span className="highlight">más rápido</span> y
           atiende mejor

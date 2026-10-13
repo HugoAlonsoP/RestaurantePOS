@@ -1,32 +1,40 @@
+// 🖼️ Importamos las imágenes de los íconos (Opción B)
+import mobile from "../assets/icons/mobile.png";
+import kitchen from "../assets/icons/kitchen.png";
+import reports from "../assets/icons/reports.png";
+import splitBill from "../assets/icons/split-bill.png";
+import payments from "../assets/icons/payments.png";
+import offline from "../assets/icons/offline.png";
+
 function Features() {
   const features = [
     {
-      icon: "📱",
+      img: mobile,
       title: "Comandas desde el móvil",
       desc: "Tus meseros toman pedidos desde cualquier dispositivo sin instalar nada.",
     },
     {
-      icon: "⚡",
+      img: kitchen,
       title: "Envío instantáneo a cocina",
       desc: "Los pedidos llegan en tiempo real a la pantalla de cocina y barra.",
     },
     {
-      icon: "📊",
+      img: reports,
       title: "Reportes en vivo",
       desc: "Ventas, platos más pedidos y rendimiento por mesero al instante.",
     },
     {
-      icon: "🧾",
+      img: splitBill,
       title: "División de cuentas",
       desc: "Divide la cuenta entre comensales de forma rápida y sin errores.",
     },
     {
-      icon: "💳",
+      img: payments,
       title: "Cobros integrados",
       desc: "Acepta efectivo, tarjeta o pagos digitales desde la misma app.",
     },
     {
-      icon: "🌐",
+      img: offline,
       title: "Funciona sin internet",
       desc: "Modo offline que sincroniza automáticamente cuando vuelve la red.",
     },
@@ -43,7 +51,7 @@ function Features() {
       <div className="features-grid">
         {features.map((f, i) => (
           <div className="feature-card" key={i}>
-            <div className="feature-icon">{f.icon}</div>
+            <img className="feature-icon" src={f.img} alt={f.title} />
             <h3>{f.title}</h3>
             <p>{f.desc}</p>
           </div>

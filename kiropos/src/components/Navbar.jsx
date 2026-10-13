@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+// 🖼️ Logo de la marca (imagen + texto)
+import logo from "../assets/logo/kiropos-logo.png";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -14,10 +16,10 @@ function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
       <div className="navbar-container">
-        <Link to="/" className="logo">
-
-          🍽️ Kiro<span>POS</span>
-        </Link>
+                <Link to="/" className="logo">
+                  <img src={logo} alt="KiroPOS" className="logo-img" />
+                  Kiro<span>POS</span>
+                </Link>
 
         <button
           className="menu-toggle"

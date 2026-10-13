@@ -1,9 +1,13 @@
+// 🖼️ Logo de la marca para el footer
+import logo from "../assets/logo/kiropos-logo.png";
+
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-brand">
-          <h3>🍽️ KiroPOS</h3>
+                <div className="footer-brand">
+          <img src={logo} alt="KiroPOS" className="footer-logo" />
+          <h3>KiroPOS</h3>
           <p>El sistema de comandas para restaurantes modernos.</p>
         </div>
 
